@@ -1,0 +1,95 @@
+@import url('primitives.css');
+@import url('colorTheme.css');
+@import url('spacing.css');
+@import url('corners.css');
+
+body, button {
+    font-family: "Noto Sans VF", "Noto Sans", "Helvetica", "Arial", sans-serif;
+}
+p, li {
+   color: var(--mds-background-adaptive-neutral-high);
+}
+
+a {
+    color: var(--mds-background-adaptive-primary-mid);
+}
+
+a:hover {
+    color: var(--mds-background-adaptive-primary-low);
+}
+
+a:focus {
+    border-color: var(--mds-border-focus-on-light);
+}
+
+input {
+    border:1px solid var(--mds-border-neutral-high);
+    border-radius: var(--mds-md);
+    padding: var(--mds-space3xs) var(--mds-space-xs);
+    margin: var(--mds-space3xs);
+    font-size: var(--size-200, 16px);
+ }
+
+ .mds-button {
+    padding: var(--mds-space-sm);
+    font-size: var(--size-225, 18px); /**didn't get font size variables from the figma yet**/
+    border-radius: var(--mds-md);
+ }
+
+.mds-button.fill {
+    background-color: var(--mds-background-section-primary-mid);
+    color: var(--mds-inverse);
+    border: none;  
+}
+
+.mds-button.accent.fill {
+    background-color: var(--mds-background-section-secondary-mid);
+}
+
+.mds-button.accent.fill:hover, .mds-button.accent.outline:hover {
+    background-color: var(--mds-background-section-secondary-highest);
+    color: var(--mds-inverse);
+}
+
+.mds-button.outline {
+    background-color: var(--mds-inverse);
+    border: 2px solid var(--mds-background-section-primary-mid);
+    color: var(--mds-background-section-primary-mid);
+}
+
+.mds-button.accent.outline {
+    color: var(--mds-background-section-secondary-mid);
+    border: 2px solid var(--mds-background-section-secondary-mid);
+}
+
+.mds-button.accent.ghost {
+    color: var(--mds-background-section-secondary-mid);
+}
+
+.mds-button.ghost {
+    border: none;
+    background-color: var(--mds-inverse);
+    color: var(--mds-background-section-primary-mid);
+}
+
+.mds-button.ghost:hover {
+    border: none;
+    background-color: var(--mds-inverse);
+    color: var(--mds-background-section-primary-mid);
+    text-decoration: underline;
+}
+
+.mds-button.small {
+    padding: var(--mds-space2xs, 8px) var(--mds-space-sm, 16px);
+    font-size: var(--font-size-175, 14px)
+}
+
+.mds-button:hover, .mds-button.outline:hover {
+    background-color: var(--mds-background-section-primary-highest);
+    color: var(--mds-inverse);
+}
+
+h1 {
+    color: var(--mds-text-and-icons-neutral-default);
+    font-family: 'noto sans', sans-serif;
+}

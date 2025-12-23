@@ -30,11 +30,51 @@ input {
     font-size: var(--size-200, 16px);
  }
 
- .mds-button {
+ h1 {
+    color: var(--mds-text-and-icons-neutral-default);
+    font-family: 'noto sans', sans-serif;
+}
+
+.container {
+    margin: var(--mds-space-lg)0 ;
+}
+/** Specific component css **/
+
+.mds-badge {
+    padding: var(--mds-space2xs);
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: var(--mds-sm, 4px);
+    color: var(--mds-text-and-icons-neutral-default);
+    background-color: var(--mds-background-adaptive-neutral-low);
+    font-size: var(--size-125, 12px);
+}
+
+.mds-badge.primary {
+    color: var(--mds-text-and-icons-primary-mid);
+    background-color: var(--mds-background-adaptive-primary-lowest);
+}
+
+.mds-badge.success {
+    color: var(--mds-text-and-icons-utility-success-mid);
+    background-color: var(--mds-background-adaptive-utility-success-lowest);
+}
+
+.mds-badge.caution {
+    color: var(--mds-text-and-icons-utility-warning-mid);
+    background-color: var(--mds-background-adaptive-utility-warning-lowest);
+}
+
+.mds-badge.danger {
+    color: var(--mds-text-and-icons-utility-danger-mid);
+    background-color: var(--mds-background-adaptive-utility-danger-lowest);
+}
+
+.mds-button {
     padding: var(--mds-space-sm);
     font-size: var(--size-225, 18px); /**didn't get font size variables from the figma yet**/
     border-radius: var(--mds-md);
- }
+}
 
 .mds-button.fill {
     background-color: var(--mds-background-section-primary-mid);
@@ -89,7 +129,3 @@ input {
     color: var(--mds-inverse);
 }
 
-h1 {
-    color: var(--mds-text-and-icons-neutral-default);
-    font-family: 'noto sans', sans-serif;
-}

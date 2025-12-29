@@ -72,6 +72,7 @@
   --mds-white: var(--color-utility-white);
   --mds-black: var(--color-utility-black);
   --mds-inverse: var(--color-utility-white);
+  /** Text Colors **/
   --mds-text-and-icons-neutral-default: var(--color-gray-1300);
   --mds-text-and-icons-neutral-muted: var(--color-gray-900);
   --mds-text-and-icons-neutral-disabled: var(--color-gray-700);
@@ -80,6 +81,7 @@
   --mds-text-and-icons-utility-danger-mid: var(--color-utility-danger-red-600);
   --mds-text-and-icons-utility-warning-mid: var(--color-utility-warning-yellow-600);
   --mds-text-and-icons-utility-success-mid: var(--color-utility-success-green-900);
+  /** Border Colors **/
   --mds-border-neutral-lowest: var(--color-gray-200);
   --mds-border-neutral-low: var(--color-gray-400);
   --mds-border-neutral-mid: var(--color-gray-600);

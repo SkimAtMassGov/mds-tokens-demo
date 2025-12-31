@@ -2,12 +2,12 @@
  * Color Theme tokens used in the theme.
  *
  */
- @import url('primitives.css');
 
 :root {
   --mds-background-transparent: var(--color-utility-white-transparent);
-  --mds-background-surface-default: var(--color-gray-100);
+  --mds-background-surface-default: var(--color-utility-gray);
   --mds-background-section-neutral-lowest: var(--color-gray-100);
+  --mds-background-section-neutral-low: var(--color-gray-300);
   --mds-background-section-neutral-mid: var(--color-gray-800);
   --mds-background-section-neutral-high: var(--color-gray-1100);
   --mds-background-section-neutral-highest: var(--color-gray-1300);
@@ -67,7 +67,6 @@
   --mds-background-adaptive-utility-success-mid: var(--color-utility-success-green-600);
   --mds-background-adaptive-utility-success-high: var(--color-utility-success-green-900);
   --mds-background-adaptive-utility-success-highest: var(--color-utility-success-green-1300);
-  --mds-background-adaptive-utility-utility-bar-mid: var(--color-theme-background-section-primary-mid);
   --mds-background-overlay: #00000099;
   --mds-white: var(--color-utility-white);
   --mds-black: var(--color-utility-black);

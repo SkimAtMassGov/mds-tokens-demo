@@ -2,9 +2,13 @@
 @import url('colorTheme.css');
 @import url('spacing.css');
 @import url('corners.css');
+@import url('typography.css');
+@import url('elevation.css');
 
-body, button {
-    font-family: "Noto Sans VF", "Noto Sans", "Helvetica", "Arial", sans-serif;
+body, button, html {
+    font-family: "Noto Sans", "Helvetica", "Arial", sans-serif;
+    box-sizing: border-box;
+    /** font imported in primitives stylesheet **/
 }
 p, li {
    color: var(--mds-background-adaptive-neutral-high);
@@ -12,6 +16,7 @@ p, li {
 
 a {
     color: var(--mds-background-adaptive-primary-mid);
+    font:var(--mds-body-md-bold);
 }
 
 a:hover {
@@ -19,11 +24,11 @@ a:hover {
 }
 
 a:focus {
-    border-color: var(--mds-border-focus-on-light);
+    outline-color: var(--mds-border-focus-on-light);
 }
 
 input {
-    border:1px solid var(--mds-border-neutral-high);
+    outline:1px solid var(--mds-border-neutral-high);
     border-radius: var(--mds-md);
     padding: var(--mds-space3xs) var(--mds-space-xs);
     margin: var(--mds-space3xs);
@@ -32,7 +37,10 @@ input {
 
  h1 {
     color: var(--mds-text-and-icons-neutral-default);
-    font-family: 'noto sans', sans-serif;
+}
+
+div {
+    box-sizing: border-box;
 }
 
 .container {
@@ -72,34 +80,39 @@ input {
 
 .mds-button {
     padding: var(--mds-space-sm);
-    font-size: var(--size-225, 18px); /**didn't get font size variables from the figma yet**/
+    font-size: var(--size-225, 18px); /**TODO: Get font size variables from the figma yet. need to use REMs for values and fallbacks**/
     border-radius: var(--mds-md);
+    box-sizing: border-box;
+    border: 0;
+    
 }
+/** use box-sizing to keep buttons consistent size despite border**/
 
 .mds-button.fill {
-    background-color: var(--mds-background-section-primary-mid);
+    background-color: var(--mds-background-adaptive-primary-mid);
     color: var(--mds-inverse);
-    border: none;  
+    outline-color: var(--mds-background-section-primary-mid);
 }
 
 .mds-button.accent.fill {
     background-color: var(--mds-background-section-secondary-mid);
+    outline-color: var(--mds-background-section-secondary-mid);
 }
 
 .mds-button.accent.fill:hover, .mds-button.accent.outline:hover {
     background-color: var(--mds-background-section-secondary-highest);
-    color: var(--mds-inverse);
+    color: var(--mds-inverse); /** Use adaptive for interactive*/
 }
 
 .mds-button.outline {
     background-color: var(--mds-inverse);
-    border: 2px solid var(--mds-background-section-primary-mid);
+    outline: 2px solid var(--mds-background-section-primary-mid);
     color: var(--mds-background-section-primary-mid);
 }
 
 .mds-button.accent.outline {
     color: var(--mds-background-section-secondary-mid);
-    border: 2px solid var(--mds-background-section-secondary-mid);
+    outline: 2px solid var(--mds-background-section-secondary-mid);
 }
 
 .mds-button.accent.ghost {
@@ -107,13 +120,13 @@ input {
 }
 
 .mds-button.ghost {
-    border: none;
+    outline: none;
     background-color: var(--mds-inverse);
     color: var(--mds-background-section-primary-mid);
 }
 
 .mds-button.ghost:hover {
-    border: none;
+    outline: none;
     background-color: var(--mds-inverse);
     color: var(--mds-background-section-primary-mid);
     text-decoration: underline;
@@ -127,5 +140,6 @@ input {
 .mds-button:hover, .mds-button.outline:hover {
     background-color: var(--mds-background-section-primary-highest);
     color: var(--mds-inverse);
+    box-shadow: var(--mds-hover-shadow-sm);
 }
 

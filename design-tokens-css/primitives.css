@@ -4,13 +4,9 @@
  * Updated 12/9/25
  */
 
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
- @font-face {
-    font-family: 'Noto Sans';
-    src: 
-      url("../fonts/noto/Latin/NotoSans-Regular-subset.eot") format("embedded-opentype"),
-      url("../fonts/noto/Latin/NotoSans-Regular-subset.woff2") format("woff2"),
-  }
+html {font-family: "Noto Sans", serif;}
 
 :root {
   --border-radius-000: 0px;
@@ -29,6 +25,7 @@
   --border-radius-12500: 1000px;
   --color-utility-white: #ffffff;
   --color-utility-black: #000000;
+  --color-utility-gray: #fdfdfd;
   --color-utility-focus-blue-300: #b2dbff;
   --color-utility-focus-blue-600: #0088ff;
   --color-utility-danger-red-100: #fef1f1;

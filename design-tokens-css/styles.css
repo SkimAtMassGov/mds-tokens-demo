@@ -16,8 +16,10 @@ p, li {
 
 a {
     color: var(--mds-background-adaptive-primary-mid);
-    font:var(--mds-body-md-bold);
+    
 }
+
+p strong {font:var(--mds-body-md-bold); }
 
 a:hover {
     color: var(--mds-background-adaptive-primary-low);
@@ -130,6 +132,10 @@ div {
     background-color: var(--mds-inverse);
     color: var(--mds-background-section-primary-mid);
     text-decoration: underline;
+}
+
+.mds-button.accent.ghost:hover {
+    color: var(--mds-background-section-secondary-mid);
 }
 
 .mds-button.small {

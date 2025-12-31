@@ -4,10 +4,10 @@
  */
 
 :root {
-  --mds-body-sm: var(--font-size-175);
-  --mds-body-sm-bold: var(--font-weight-semibold) var(--font-size-175) ;
-  --mds-body-md: var(--font-size-200);
-  --mds-body-md-bold: var(--font-weight-semibold) var(--font-size-200);
-  --mds-body-large: var(--font-size-225);
-  --mds-body-large-bold: var(--font-weight-semibold) var(--font-size-225) ;
+  --mds-body-sm: var(--font-size-175) var(--font-family);
+  --mds-body-sm-bold: var(--font-weight-semibold) var(--font-size-175) var(--font-family);
+  --mds-body-md: var(--font-size-200) var(--font-family);
+  --mds-body-md-bold: var(--font-weight-semibold) var(--font-size-200) var(--font-family);
+  --mds-body-lg: var(--font-size-225) var(--font-family);
+  --mds-body-lg-bold: var(--font-weight-semibold) var(--font-size-225) var(--font-family);
 }

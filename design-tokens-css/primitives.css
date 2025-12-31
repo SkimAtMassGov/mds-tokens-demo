@@ -9,6 +9,7 @@
 html {font-family: "Noto Sans", serif;}
 
 :root {
+  --font-family: "Noto Sans", serif;
   --border-radius-000: 0px;
   --border-radius-025: 0.125rem;
   --border-radius-050: 0.25rem;
@@ -24,7 +25,7 @@ html {font-family: "Noto Sans", serif;}
   --border-radius-600: 3rem;
   --border-radius-12500: 1000px;
   --color-utility-white: #ffffff;
-  --color-utility-black: #000000;
+  --color-utility-black: rgb(0 0 0);
   --color-utility-gray: #fdfdfd;
   --color-utility-focus-blue-300: #b2dbff;
   --color-utility-focus-blue-600: #0088ff;

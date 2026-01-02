@@ -1,0 +1,151 @@
+@import url('primitives.css');
+@import url('colorTheme.css');
+@import url('spacing.css');
+@import url('corners.css');
+@import url('typography.css');
+@import url('elevation.css');
+
+body, button, html {
+    font-family: "Noto Sans", "Helvetica", "Arial", sans-serif;
+    box-sizing: border-box;
+    /** font imported in primitives stylesheet **/
+}
+p, li {
+   color: var(--mds-background-adaptive-neutral-high);
+}
+
+a {
+    color: var(--mds-background-adaptive-primary-mid);
+    
+}
+
+p strong {font:var(--mds-body-md-bold); }
+
+a:hover {
+    color: var(--mds-background-adaptive-primary-low);
+}
+
+a:focus {
+    outline-color: var(--mds-border-focus-on-light);
+}
+
+input {
+    outline:1px solid var(--mds-border-neutral-high);
+    border-radius: var(--mds-md);
+    padding: var(--mds-space3xs) var(--mds-space-xs);
+    margin: var(--mds-space3xs);
+    font-size: var(--size-200, 16px);
+ }
+
+ h1 {
+    color: var(--mds-text-and-icons-neutral-default);
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: var(--mds-space-lg)0 ;
+}
+/** Specific component css **/
+
+.mds-badge {
+    padding: var(--mds-space2xs);
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: var(--mds-sm, 4px);
+    color: var(--mds-text-and-icons-neutral-default);
+    background-color: var(--mds-background-adaptive-neutral-low);
+    font-size: var(--size-125, 12px);
+}
+
+.mds-badge.primary {
+    color: var(--mds-text-and-icons-primary-mid);
+    background-color: var(--mds-background-adaptive-primary-lowest);
+}
+
+.mds-badge.success {
+    color: var(--mds-text-and-icons-utility-success-mid);
+    background-color: var(--mds-background-adaptive-utility-success-lowest);
+}
+
+.mds-badge.caution {
+    color: var(--mds-text-and-icons-utility-warning-mid);
+    background-color: var(--mds-background-adaptive-utility-warning-lowest);
+}
+
+.mds-badge.danger {
+    color: var(--mds-text-and-icons-utility-danger-mid);
+    background-color: var(--mds-background-adaptive-utility-danger-lowest);
+}
+
+.mds-button {
+    padding: var(--mds-space-sm);
+    font-size: var(--size-225, 18px); /**TODO: Get font size variables from the figma yet. need to use REMs for values and fallbacks**/
+    border-radius: var(--mds-md);
+    box-sizing: border-box;
+    border: 0;
+    
+}
+/** use box-sizing to keep buttons consistent size despite border**/
+
+.mds-button.fill {
+    background-color: var(--mds-background-adaptive-primary-mid);
+    color: var(--mds-inverse);
+    outline-color: var(--mds-background-section-primary-mid);
+}
+
+.mds-button.accent.fill {
+    background-color: var(--mds-background-section-secondary-mid);
+    outline-color: var(--mds-background-section-secondary-mid);
+}
+
+.mds-button.accent.fill:hover, .mds-button.accent.outline:hover {
+    background-color: var(--mds-background-section-secondary-highest);
+    color: var(--mds-inverse); /** Use adaptive for interactive*/
+}
+
+.mds-button.outline {
+    background-color: var(--mds-inverse);
+    outline: 2px solid var(--mds-background-section-primary-mid);
+    color: var(--mds-background-section-primary-mid);
+}
+
+.mds-button.accent.outline {
+    color: var(--mds-background-section-secondary-mid);
+    outline: 2px solid var(--mds-background-section-secondary-mid);
+}
+
+.mds-button.accent.ghost {
+    color: var(--mds-background-section-secondary-mid);
+}
+
+.mds-button.ghost {
+    outline: none;
+    background-color: var(--mds-inverse);
+    color: var(--mds-background-section-primary-mid);
+}
+
+.mds-button.ghost:hover {
+    outline: none;
+    background-color: var(--mds-inverse);
+    color: var(--mds-background-section-primary-mid);
+    text-decoration: underline;
+}
+
+.mds-button.accent.ghost:hover {
+    color: var(--mds-background-section-secondary-mid);
+}
+
+.mds-button.small {
+    padding: var(--mds-space2xs, 8px) var(--mds-space-sm, 16px);
+    font-size: var(--font-size-175, 14px)
+}
+
+.mds-button:hover, .mds-button.outline:hover {
+    background-color: var(--mds-background-section-primary-highest);
+    color: var(--mds-inverse);
+    box-shadow: var(--mds-hover-shadow-sm);
+}
+

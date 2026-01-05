@@ -149,3 +149,27 @@ div {
     box-shadow: var(--mds-hover-shadow-sm);
 }
 
+/* Elevation demo styles */
+
+.modal-shadow {
+    margin: var(--mds-space-md);
+    padding: var(--mds-space-md);
+    box-shadow: var(--mds-modal-shadow);
+    width: 300px;
+    height: 200px;
+}
+
+.container-shadow {
+    margin: var(--mds-space-md);
+    padding: var(--mds-space-md);
+    box-shadow: var(--mds-hover-shadow-sm);
+    width: 200px;
+    height: 100px;
+}
+
+.icon-shadow {
+    margin: var(--mds-space-md);
+    box-shadow: var(--mds-icon-shadow);
+    width: 24px;
+    height: 24px;
+}

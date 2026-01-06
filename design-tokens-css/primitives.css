@@ -10,9 +10,8 @@ html {font-family: "Noto Sans", serif;}
 
 :root {
   --font-family: "Noto Sans", serif;
-  --border-radius-000: 0px;
-  --border-radius-025: 0.125rem;
-  --border-radius-050: 0.25rem;
+  --border-radius-25: 0.125rem;
+  --border-radius-50: 0.25rem;
   --border-radius-100: 0.5rem;
   --border-radius-150: 0.75rem;
   --border-radius-200: 1rem;
@@ -23,7 +22,7 @@ html {font-family: "Noto Sans", serif;}
   --border-radius-450: 2.25rem;
   --border-radius-500: 2.5rem;
   --border-radius-600: 3rem;
-  --border-radius-12500: 1000px;
+  --border-radius-max: 1000px;
   --color-utility-white: #ffffff;
   --color-utility-black: rgb(0 0 0);
   --color-utility-gray: #fdfdfd;
@@ -168,7 +167,7 @@ html {font-family: "Noto Sans", serif;}
   --line-height-1300: 6.5rem;
   --line-height-1400: 7rem;
   --line-height-2100: 10.5rem;
-  --space-000: 0;
+  --space-0: 0;
   --space-25: 0.125rem;
   --space-50: 0.25rem;
   --space-100: 0.5rem;
@@ -199,17 +198,17 @@ html {font-family: "Noto Sans", serif;}
   --elevation-offset-300: 24px;
   --elevation-offset-400: 32px;
   --elevation-offset-none: 0px;
-  --elevation-offset-050: 4px;
+  --elevation-offset-50: 4px;
   --elevation-blur-150: 12px;
   --elevation-blur-200: 16px;
   --elevation-blur-300: 24px;
   --elevation-blur-400: 32px;
   --elevation-blur-none: 0px;
-  --elevation-blur-025: 2px;
+  --elevation-blur-25: 2px;
   --elevation-spread-100: 8px;
   --elevation-spread-150: 12px;
   --elevation-spread-200: 16px;
   --elevation-spread-250: 20px;
   --elevation-spread-none: 0px;
-  --elevation-spread-050: 4px;
+  --elevation-spread-50: 4px;
 }

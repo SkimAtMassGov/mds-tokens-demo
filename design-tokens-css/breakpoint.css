@@ -5,7 +5,7 @@
 
 :root {
 
-/** 1280px, XL breakpoint **/
+  /** 1280px, XL breakpoint **/
   --mds-breakpoint-xl-horizontal-space-viewport-width: 1280px;
   --mds-breakpoint-xl-horizontal-space-viewport-min-width: 1025px;
   --mds-breakpoint-xl-horizontal-space-columns: 12;
@@ -19,7 +19,7 @@
   --mds-breakpoint-xl-font-size-headling-lg: var(--type-size-450);
   --mds-breakpoint-xl-font-size-body-lg: var(--type-size-225);
 
-/** 1024px, LG breakpoint **/
+  /** 1024px, LG breakpoint **/
   --mds-breakpoint-lg-horizontal-space-viewport-width: 1024px;
   --mds-breakpoint-lg-horizontal-space-viewport-min-width: 769px;
   --mds-breakpoint-lg-horizontal-space-columns: 12;
@@ -32,7 +32,6 @@
   --mds-breakpoint-lg-font-size-body-lg: var(--type-size-225);
   --mds-breakpoint-lg-vertical-space-section-spacing: var(--space-500);
   --mds-breakpoint-lg-vertical-space-component-spacing: var(--space-300);
-
 
   /** 768px, MD breakpoint **/
   --mds-breakpoint-md-horizontal-space-viewport-width: 768px;
@@ -61,13 +60,4 @@
   --mds-breakpoint-sm-font-size-heading-xl: var(--type-size-400);
   --mds-breakpoint-sm-font-size-headling-lg: var(--type-size-350);
   --mds-breakpoint-sm-font-size-body-lg: var(--type-size-200);
-
-
-
-
-
-
-
-
-
 }

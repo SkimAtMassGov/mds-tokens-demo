@@ -1,0 +1,63 @@
+/**
+ * Spacing tokens by Breakpoint.
+ *
+ */
+
+:root {
+
+  /** 1280px, XL breakpoint **/
+  --mds-breakpoint-xl-horizontal-space-viewport-width: 1280px;
+  --mds-breakpoint-xl-horizontal-space-viewport-min-width: 1025px;
+  --mds-breakpoint-xl-horizontal-space-columns: 12;
+  --mds-breakpoint-xl-horizontal-space-margin: var(--space-600);
+  --mds-breakpoint-xl-horizontal-space-gutter: var(--space-300);
+  --mds-breakpoint-xl-horizontal-space-gutter-body-left: var(--space-700);
+  --mds-breakpoint-xl-vertical-space-section-spacing: var(--space-600);
+  --mds-breakpoint-xl-vertical-space-component-spacing: var(--space-400);
+  --mds-breakpoint-xl-font-size-heading2xl: var(--type-size-550);
+  --mds-breakpoint-xl-font-size-heading-xl: var(--type-size-500);
+  --mds-breakpoint-xl-font-size-headling-lg: var(--type-size-450);
+  --mds-breakpoint-xl-font-size-body-lg: var(--type-size-225);
+
+  /** 1024px, LG breakpoint **/
+  --mds-breakpoint-lg-horizontal-space-viewport-width: 1024px;
+  --mds-breakpoint-lg-horizontal-space-viewport-min-width: 769px;
+  --mds-breakpoint-lg-horizontal-space-columns: 12;
+  --mds-breakpoint-lg-horizontal-space-margin: var(--space-600);
+  --mds-breakpoint-lg-horizontal-space-gutter: var(--space-300);
+  --mds-breakpoint-lg-horizontal-space-gutter-body-left: var(--space-700);
+  --mds-breakpoint-lg-font-size-heading2xl: var(--type-size-550);
+  --mds-breakpoint-lg-font-size-heading-xl: var(--type-size-500);
+  --mds-breakpoint-lg-font-size-headling-lg: var(--type-size-350);
+  --mds-breakpoint-lg-font-size-body-lg: var(--type-size-225);
+  --mds-breakpoint-lg-vertical-space-section-spacing: var(--space-500);
+  --mds-breakpoint-lg-vertical-space-component-spacing: var(--space-300);
+
+  /** 768px, MD breakpoint **/
+  --mds-breakpoint-md-horizontal-space-viewport-width: 768px;
+  --mds-breakpoint-md-horizontal-space-viewport-min-width: 481px;
+  --mds-breakpoint-md-horizontal-space-columns: 6;
+  --mds-breakpoint-md-horizontal-space-margin: var(--space-400);
+  --mds-breakpoint-md-horizontal-space-gutter: var(--space-300);
+  --mds-breakpoint-md-horizontal-space-gutter-body-left: var(--space-0);
+  --mds-breakpoint-md-vertical-space-section-spacing: var(--space-400);
+  --mds-breakpoint-md-vertical-space-component-spacing: var(--space-300);
+  --mds-breakpoint-md-font-size-heading2xl: var(--type-size-550);
+  --mds-breakpoint-md-font-size-heading-xl: var(--type-size-450);
+  --mds-breakpoint-md-font-size-headling-lg: var(--type-size-400);
+  --mds-breakpoint-md-font-size-body-lg: var(--type-size-225);
+
+  /** 480px, SM breakpoint **/
+  --mds-breakpoint-sm-horizontal-space-viewport-width: 480px;
+  --mds-breakpoint-sm-horizontal-space-viewport-min-width: 288px;
+  --mds-breakpoint-sm-horizontal-space-columns: 6;
+  --mds-breakpoint-sm-horizontal-space-margin: var(--space-300);
+  --mds-breakpoint-sm-horizontal-space-gutter: var(--space-200);
+  --mds-breakpoint-sm-horizontal-space-gutter-body-left: var(--space-0);
+  --mds-breakpoint-sm-vertical-space-section-spacing: var(--space-300);
+  --mds-breakpoint-sm-vertical-space-component-spacing: var(--space-200);
+  --mds-breakpoint-sm-font-size-heading2xl: var(--type-size-450);
+  --mds-breakpoint-sm-font-size-heading-xl: var(--type-size-400);
+  --mds-breakpoint-sm-font-size-headling-lg: var(--type-size-350);
+  --mds-breakpoint-sm-font-size-body-lg: var(--type-size-200);
+}

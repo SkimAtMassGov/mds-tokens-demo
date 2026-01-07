@@ -1,0 +1,16 @@
+/**
+ * Elevation/Box Shadow tokens used in the theme.
+ *
+ */
+
+:root {
+  --mds-shadow-container: var(--elevation-offset-none) var(--elevation-offset-100) var(--elevation-blur-400) 0 var(--mds-shadow-container-opacity);
+  --mds-shadow-modal: var(--elevation-offset-none) var(--elevation-offset-50) var(--elevation-blur-300) 0 var(--mds-shadow-modal-opacity);
+  --mds-shadow-hover-sm: var(--elevation-offset-none) var(--elevation-offset-050) var(--elevation-blur-150) 0 var(--mds-shadow-hover-opacity); 
+  --mds-shadow-hover-md: var(--elevation-offset-none) var(--elevation-offset-100) var(--elevation-blur-200) 0 var(--mds-shadow-hover-opacity);
+
+/** do not use these opacity tokens directly, only use the ones above. I'm still dialing these in**/
+  --mds-shadow-hover-opacity: rgba(0, 0, 0, 0.16); /** Figure out proper rgba syntax with vars**/
+  --mds-shadow-container-opacity: rgba(0, 0, 0, 0.1); 
+  --mds-shadow-modal-opacity: rgba(0, 0, 0, 0.14); 
+}

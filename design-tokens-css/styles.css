@@ -146,7 +146,7 @@ div {
 .mds-button:hover, .mds-button.outline:hover {
     background-color: var(--mds-background-section-primary-highest);
     color: var(--mds-inverse);
-    box-shadow: var(--mds-hover-shadow-sm);
+    box-shadow: var(--mds-shadow-hover-sm);
 }
 
 /* Elevation demo styles */
@@ -154,7 +154,7 @@ div {
 .modal-shadow {
     margin: var(--mds-space-md);
     padding: var(--mds-space-md);
-    box-shadow: var(--mds-modal-shadow);
+    box-shadow: var(--mds-shadow-modal);
     width: 300px;
     height: 200px;
 }
@@ -162,14 +162,7 @@ div {
 .container-shadow {
     margin: var(--mds-space-md);
     padding: var(--mds-space-md);
-    box-shadow: var(--mds-hover-shadow-sm);
+    box-shadow: var(--mds-shadow-container);
     width: 200px;
     height: 100px;
-}
-
-.icon-shadow {
-    margin: var(--mds-space-md);
-    box-shadow: var(--mds-icon-shadow);
-    width: 24px;
-    height: 24px;
 }

@@ -1,11 +1,11 @@
 /**
- * Corners tokens used in the theme.
+ * Corner (border radius) tokens used in the theme.
  *
  */
 
 :root {
-  --mds-xs: var(--border-radius-25);
-  --mds-sm: var(--border-radius-50);
-  --mds-md: var(--border-radius-100);
-  --mds-max: var(--border-radius-12500);
+  --mds-radius-xs: var(--border-radius-25);
+  --mds-radius-sm: var(--border-radius-50);
+  --mds-radius-md: var(--border-radius-100);
+  --mds-radius-max: var(--border-radius-round);
 }

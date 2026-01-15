@@ -11,6 +11,6 @@
 
 /** do not use these opacity tokens directly, only use the ones above. I'm still dialing these in**/
   --mds-shadow-hover-opacity: rgba(0, 0, 0, 0.16); /** Figure out proper rgba syntax with vars**/
-  --mds-shadow-container-opacity: rgba(0, 0, 0, 0.1); 
-  --mds-shadow-modal-opacity: rgba(0, 0, 0, 0.14); 
+  --mds-shadow-container-opacity: rgba(0, 0, 0, 0.1);
+  --mds-shadow-modal-opacity: rgba(0, 0, 0, 0.14);
 }

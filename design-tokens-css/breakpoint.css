@@ -3,40 +3,54 @@
  * Use these for containers/sections
  */
 
-:root {
+/** 1280px, XL breakpoint **/
+@media (min-width: 1280px) {
+  :root {
+    --mds-breakpoint-horizontal-space-viewport-min-width: 1025px;
+    --mds-breakpoint-horizontal-space-columns: 12;
+    --mds-breakpoint-horizontal-space-margin: var(--space-600);
+    --mds-breakpoint-horizontal-space-gutter: var(--space-300);
+  };
+};
 
-  /** 1280px, XL breakpoint **/
-  /** update other viewports to match this**/
-  /** wrap in media queries, see mode export for scripting **/ 
-  --mds-breakpoint-xl-horizontal-space-viewport-width: 1280px;
-  --mds-breakpoint-xl-horizontal-space-viewport-min-width: 1025px;
-  --mds-breakpoint-xl-horizontal-space-columns: 12;
-  --mds-breakpoint-xl-horizontal-space-margin: var(--space-600);
-  --mds-breakpoint-xl-horizontal-space-gutter: var(--space-300);
+/** 1024px, LG breakpoint **/
+@media (min-width: 1024px) {
+  :root {
+    --mds-breakpoint-horizontal-space-viewport-width: 1024px;
+    --mds-breakpoint-horizontal-space-viewport-min-width: 769px;
+    --mds-breakpoint-horizontal-space-columns: 12;
+    --mds-breakpoint-horizontal-space-margin: var(--space-600);
+    --mds-breakpoint-horizontal-space-gutter: var(--space-300);
+  };
+};
 
-
-  /** 1024px, LG breakpoint **/
-  --mds-breakpoint-lg-horizontal-space-viewport-width: 1024px;
-  --mds-breakpoint-lg-horizontal-space-viewport-min-width: 769px;
-  --mds-breakpoint-lg-horizontal-space-columns: 12;
-  --mds-breakpoint-lg-horizontal-space-margin: var(--space-600);
-  --mds-breakpoint-lg-horizontal-space-gutter: var(--space-300);
-
-
-  /** 768px, MD breakpoint **/
-  --mds-breakpoint-md-horizontal-space-viewport-width: 768px;
-  --mds-breakpoint-md-horizontal-space-viewport-min-width: 481px;
-  --mds-breakpoint-md-horizontal-space-columns: 6;
-  --mds-breakpoint-md-horizontal-space-margin: var(--space-400);
-  --mds-breakpoint-md-horizontal-space-gutter: var(--space-300);
-
-
+/** 768px, MD breakpoint **/
+@media (min-width: 768px) {
+  :root {
+  --mds-breakpoint-horizontal-space-viewport-width: 768px;
+  --mds-breakpoint-horizontal-space-viewport-min-width: 481px;
+  --mds-breakpoint-horizontal-space-columns: 6;
+  --mds-breakpoint-horizontal-space-margin: var(--space-400);
+  --mds-breakpoint-horizontal-space-gutter: var(--space-300);
+  };
+};
   /** 480px, SM breakpoint **/
-  --mds-breakpoint-sm-horizontal-space-viewport-width: 480px;
-  --mds-breakpoint-sm-horizontal-space-viewport-min-width: 288px;
-  --mds-breakpoint-sm-horizontal-space-columns: 6;
-  --mds-breakpoint-sm-horizontal-space-margin: var(--space-300);
-  --mds-breakpoint-sm-horizontal-space-gutter: var(--space-200);
-
-  /** 320px coming soon!**/
-}
+@media (min-width: 480px) {
+  :root {
+  --mds-breakpoint-horizontal-space-viewport-width: 480px;
+  --mds-breakpoint-horizontal-space-viewport-min-width: 288px;
+  --mds-breakpoint-horizontal-space-columns: 6;
+  --mds-breakpoint-horizontal-space-margin: var(--space-300);
+  --mds-breakpoint-horizontal-space-gutter: var(--space-200);
+  };
+};
+/** 320px, XS breakpoint**/
+@media (min-width: 320px) {
+  :root {
+  --mds-breakpoint-horizontal-space-viewport-width: 320px;
+  --mds-breakpoint-horizontal-space-viewport-min-width: 288px;
+  --mds-breakpoint-horizontal-space-columns: 6;
+  --mds-breakpoint-horizontal-space-margin: var(--space-200);
+  --mds-breakpoint-horizontal-space-gutter: var(--space-100);
+  };
+};

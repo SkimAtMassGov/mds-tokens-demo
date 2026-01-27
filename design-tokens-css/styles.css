@@ -15,7 +15,9 @@ body, button, html {
     /** font imported in primitives stylesheet **/
 }
 p, li {
-   color: var(--mds-background-adaptive-neutral-high);
+    color: var(--mds-background-adaptive-neutral-high);
+    font: var(--mds-text-body);
+
 }
 
 a {
@@ -23,7 +25,7 @@ a {
     
 }
 
-p strong {font:var(--mds-body-md-bold); }
+p strong {font:var(--mds-text-body-bold); }
 
 a:hover {
     color: var(--mds-background-adaptive-brand-primary-low);
@@ -36,13 +38,25 @@ a:focus {
 input {
     outline:1px solid var(--mds-border-neutral-high);
     border-radius: var(--mds-radius-md);
-    padding: var(--mds-space3xs) var(--mds-space-xs);
-    margin: var(--mds-space3xs);
+    padding: var(--mds-space-3xs) var(--mds-space-xs);
+    margin: var(--mds-space-3xs);
     font-size: var(--size-200, 16px);
  }
 
- h1 {
-    color: var(--mds-text-and-icons-neutral-default);
+h1, h2, h3, h4, h5, h6 {
+  color: var(--mds-text-and-icons-brand-neutral-default);
+}
+
+h1 {
+    font: var(--mds-text-heading-2xl);
+}
+
+h2 {
+    font: var(--mds-text-heading-xl);
+}
+
+h3 {
+    font: var(--mds-text-heading-lg);
 }
 
 div {

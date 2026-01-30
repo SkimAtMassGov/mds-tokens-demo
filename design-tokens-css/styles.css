@@ -3,11 +3,12 @@
 **/
 
 @import url('primitives.css');
-@import url('colorTheme.css');
+@import url('colorTheme-cob.css');
 @import url('spacing.css');
 @import url('corners.css');
 @import url('typography.css');
 @import url('elevation.css');
+@import url('breakpoints.css');
 
 body, button, html {
     font-family: "Noto Sans", "Helvetica", "Arial", sans-serif;
@@ -69,7 +70,7 @@ div {
 /** Specific component css **/
 
 .mds-badge {
-    padding: var(--mds-space2xs);
+    padding: var(--mds-space-2xs);
     text-transform: uppercase;
     display: inline-block;
     border-radius: var(--mds-radius-sm, 4px);

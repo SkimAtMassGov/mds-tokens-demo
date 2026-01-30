@@ -27,8 +27,8 @@
   --mds-text-label-xl: var(--font-weight-medium) var(--font-size-275)/1.2 var(--font-family);
 
   /** Eyebrow text (Small, allcaps text labels). Needs 1px Letter spacing **/
-  --mds-text-eyebrow: small-caps (--font-weight-semibold) var(--font-size-175)/1 var(--font-family);
-  --mds-text-eyebrow-md: small-caps (--font-weight-semibold) var(--font-size-200)/1 var(--font-family);
+  --mds-text-eyebrow: small-caps var(--font-weight-semibold) var(--font-size-175)/1 var(--font-family);
+  --mds-text-eyebrow-md: small-caps var(--font-weight-semibold) var(--font-size-200)/1 var(--font-family);
 
   /** Caption text **/ 
   --mds-text-caption-sm: var(--font-weight-regular) var(--font-size-125)/1.3 var(--font-family);
@@ -37,20 +37,4 @@
   --mds-text-caption-md: var(--font-weight-regular) var(--font-size-200)/1.3 var(--font-family);
 }
 
-/**  Media queries for headings lg-2xl to fit smaller screens **/
-
-
-    @media (max-width: 909px) {
-    :root {
-      --mds-text-heading-xl: var(--font-weight-semibold) var(--font-size-450)/1.2 var(--font-family);
-    }
-  }
-
- @media (max-width: 621px) {
-    :root {
-      --mds-text-heading-2xl: var(--font-weight-semibold) var(--font-size-450)/1.1 var(--font-family);
-      --mds-text-heading-xl: var(--font-weight-semibold) var(--font-size-400)/1.2 var(--font-family);
-    }
-  }
-
-
+/**  Media queries for headings lg-2xl to fit smaller screens are in with breakpoint tokens **/

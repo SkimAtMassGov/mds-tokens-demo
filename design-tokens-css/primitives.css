@@ -1,7 +1,7 @@
 /**
- * This file was generated from MDS figma and translated to css variables by Style Dictionary. 
- * These variables are Primitives and will be remapped to semantic names, which should be the main ones used.
- * Updated 12/9/25
+ * Primitive token values
+ * Do NOT use these in your projects - use the semantic tokens (semantic-tokens.css) instead
+ * That will make theming/changes a lot easier in the long run!
  */
 
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
@@ -141,31 +141,6 @@
   --mds-font-weight-semibold: 600;
   --mds-font-weight-bold: 700;
   --mds-font-weight-extrabold: 800;
-  --mds-line-height-100: 0.5rem;
-  --mds-line-height-200: 1rem;
-  --mds-line-height-225: 1.125rem;
-  --mds-line-height-237: 1.1875rem;
-  --mds-line-height-250: 1.25rem;
-  --mds-line-height-275: 1.375rem;
-  --mds-line-height-300: 1.5rem;
-  --mds-line-height-350: 1.75rem;
-  --mds-line-height-367: 1.8125rem;
-  --mds-line-height-375: 1.875rem;
-  --mds-line-height-400: 2rem;
-  --mds-line-height-450: 2.25rem;
-  --mds-line-height-500: 2.5rem;
-  --mds-line-height-550: 2.75rem;
-  --mds-line-height-600: 3rem;
-  --mds-line-height-700: 3.5rem;
-  --mds-line-height-750: 3.75rem;
-  --mds-line-height-800: 4rem;
-  --mds-line-height-900: 4.5rem;
-  --mds-line-height-1000: 5rem;
-  --mds-line-height-1100: 5.5rem;
-  --mds-line-height-1200: 6rem;
-  --mds-line-height-1300: 6.5rem;
-  --mds-line-height-1400: 7rem;
-  --mds-line-height-2100: 10.5rem;
   --mds-space-0: 0;
   --mds-space-25: 0.125rem;
   --mds-space-50: 0.25rem;

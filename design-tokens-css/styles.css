@@ -1,14 +1,9 @@
 /** 
     Test styles for index.html to make sure variables are working properly. Do not directly reference this file 
 **/
+    
+@import url('semantic-tokens.css');
 
-@import url('primitives.css');
-@import url('colorTheme-cob.css');
-@import url('spacing.css');
-@import url('corners.css');
-@import url('typography.css');
-@import url('elevation.css');
-@import url('breakpoints.css');
 
 body, button, html {
     font-family: "Noto Sans", "Helvetica", "Arial", sans-serif;
@@ -16,9 +11,8 @@ body, button, html {
     /** font imported in primitives stylesheet **/
 }
 p, li {
-    color: var(--mds-background-adaptive-neutral-high);
+    color: var(--mds-background-adaptive-brand-neutral-high);
     font: var(--mds-text-body);
-
 }
 
 a {
@@ -41,7 +35,7 @@ input {
     border-radius: var(--mds-radius-md);
     padding: var(--mds-space-3xs) var(--mds-space-xs);
     margin: var(--mds-space-3xs);
-    font-size: var(--size-200, 16px);
+    font-size: var(--mds-text-body, 16px);
  }
 
 h1, h2, h3, h4, h5, h6 {
@@ -71,12 +65,13 @@ div {
 
 .mds-badge {
     padding: var(--mds-space-2xs);
-    text-transform: uppercase;
     display: inline-block;
     border-radius: var(--mds-radius-sm, 4px);
     color: var(--mds-text-and-icons-neutral-brand-default);
     background-color: var(--mds-background-adaptive-brand-neutral-low);
-    font-size: var(--size-125, 12px);
+    font: var(--mds-text-eyebrow);
+    text-transform: var(--mds-text-transform-eyebrow);
+    letter-spacing: var(--mds-text-letter-spacing-eyebrow);
 }
 
 .mds-badge.primary {
@@ -101,23 +96,23 @@ div {
 
 .mds-button {
     padding: var(--mds-space-sm);
-    font-size: var(--size-225, 18px); /**TODO: Get font size variables from the figma yet. need to use REMs for values and fallbacks**/
+    font-size: var(--mds-text-body-lg, 18px);
     border-radius: var(--mds-radius-md);
     box-sizing: border-box;
     border: 0;
-    
+    height: 3.5rem;
+    vertical-align: bottom;
 }
-/** use box-sizing to keep buttons consistent size despite border**/
 
 .mds-button.fill {
     background-color: var(--mds-background-adaptive-brand-primary-mid);
     color: var(--mds-inverse);
-    outline-color: var(--mds-background-section-brand-primary-mid);
+    border-color: var(--mds-background-section-brand-primary-mid);
 }
 
 .mds-button.accent.fill {
     background-color: var(--mds-background-section-brand-secondary-mid);
-    outline-color: var(--mds-background-section-brand-secondary-mid);
+    border-color: var(--mds-background-section-brand-secondary-mid);
 }
 
 .mds-button.accent.fill:hover, .mds-button.accent.outline:hover {
@@ -127,13 +122,13 @@ div {
 
 .mds-button.outline {
     background-color: var(--mds-inverse);
-    outline: 2px solid var(--mds-background-section-brand-primary-mid);
+    border: 2px solid var(--mds-background-section-brand-primary-mid);
     color: var(--mds-background-section-brand-primary-mid);
 }
 
 .mds-button.accent.outline {
     color: var(--mds-background-section-brand-secondary-mid);
-    outline: 2px solid var(--mds-background-section-brand-secondary-mid);
+    border: 2px solid var(--mds-background-section-brand-secondary-mid);
 }
 
 .mds-button.accent.ghost {
@@ -141,13 +136,13 @@ div {
 }
 
 .mds-button.ghost {
-    outline: none;
+    border: none;
     background-color: var(--mds-inverse);
     color: var(--mds-background-section-brand-primary-mid);
 }
 
 .mds-button.ghost:hover {
-    outline: none;
+    border: none;
     background-color: var(--mds-inverse);
     color: var(--mds-background-section-brand-primary-mid);
     text-decoration: underline;
@@ -158,8 +153,8 @@ div {
 }
 
 .mds-button.small {
-    padding: var(--mds-space2xs, 8px) var(--mds-space-sm, 16px);
-    font-size: var(--font-size-175, 14px)
+    padding: var(--mds-space-2xs, 8px) var(--mds-space-sm, 16px);
+    font-size: var(--mds-text-body-sm, 14px)
 }
 
 .mds-button:hover, .mds-button.outline:hover {

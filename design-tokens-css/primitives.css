@@ -98,9 +98,19 @@
   --mds-color-independence-cranberry-1100: #530817;
   --mds-color-independence-cranberry-1200: #490714;
   --mds-color-independence-cranberry-1300: #34050f;
-  /* these transparent values seem to not be transparent? **/
-  --mds-color-utility-base-white-transparent: rgba(255, 255, 255, 0);
-  --mds-color-utility-base-black-transparent: rgba(0, 0, 0, 0);
+  --mds-utility-base-white : #ffffff;
+  --mds-utility-base-black : #000000;
+  --mds-utility-base-white-transparent : #ffffff00;
+  --mds-utility-base-black-transparent : #00000000;
+  --mds-utility-focus-blue-300 : #b2dbff;
+  --mds-utility-focus-blue-600 : #0088ff;
+  --mds-utility-infomative-blue-100 : #e8eef4;
+  --mds-utility-infomative-blue-300 : #b9ccdd;
+  --mds-utility-infomative-blue-600 : #7299bc;
+  --mds-utility-infomative-blue-900 : #14558f;
+  --mds-utility-infomative-blue-1300 : #0a2b48;
+  --mds-color-utility-base-white-transparent: #ffffff00;
+  --mds-color-utility-base-black-transparent: #00000000;
   --mds-color-utility-success-green-100: #eafbef;
   --mds-color-utility-success-green-300: #81e4a2;
   --mds-color-utility-success-green-600: #24a850;
@@ -185,7 +195,7 @@
   --mds-elevation-spread-250: 20px;
   --mds-elevation-spread-none: 0px;
   --mds-elevation-spread-50: 4px;
-  --mds-shadow-hover-opacity: rgba(0, 0, 0, 0.16); /** Figure out proper rgba syntax with vars**/
-  --mds-shadow-container-opacity: rgba(0, 0, 0, 0.1); 
-  --mds-shadow-modal-opacity: rgba(0, 0, 0, 0.14); 
+  --mds-shadow-hover-opacity: #00000029;
+  --mds-shadow-container-opacity: #0000001a;
+  --mds-shadow-modal-opacity: #00000024;
 }

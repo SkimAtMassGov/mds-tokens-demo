@@ -62,6 +62,9 @@
   --mds-background-adaptive-brand-tertiary-mid: var(--mds-color-brand-independence-cranberry-900);
   --mds-background-adaptive-brand-tertiary-high: var(--mds-color-brand-independence-cranberry-1100);
   --mds-background-adaptive-brand-tertiary-highest: var(--mds-color-brand-independence-cranberry-1300);
+  --mds-background-section-utility-informative-lowest: var(--mds-utility-infomative-blue-100);
+  --mds-background-section-utility-informative-mid: var(--mds-utility-infomative-blue-900);
+  --mds-background-section-utility-informative-highest: var(--mds-utility-infomative-blue-1300);
   --mds-background-adaptive-brand-highlight-mid: var(--mds-color-brand-duckling-yellow-800);
   --mds-background-adaptive-utility-danger-lowest: var(--mds-color-utility-danger-red-100);
   --mds-background-adaptive-utility-danger-low: var(--mds-color-utility-danger-red-300);

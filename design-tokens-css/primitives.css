@@ -4,6 +4,7 @@
  * That will make theming/changes a lot easier in the long run!
  */
 
+ /* The required font for mass.gov websites is Noto Sans, which is included here in a link from Google fonts */
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
@@ -98,17 +99,17 @@
   --mds-color-independence-cranberry-1100: #530817;
   --mds-color-independence-cranberry-1200: #490714;
   --mds-color-independence-cranberry-1300: #34050f;
-  --mds-utility-base-white : #ffffff;
-  --mds-utility-base-black : #000000;
-  --mds-utility-base-white-transparent : #ffffff00;
-  --mds-utility-base-black-transparent : #00000000;
-  --mds-utility-focus-blue-300 : #b2dbff;
-  --mds-utility-focus-blue-600 : #0088ff;
-  --mds-utility-infomative-blue-100 : #e8eef4;
-  --mds-utility-infomative-blue-300 : #b9ccdd;
-  --mds-utility-infomative-blue-600 : #7299bc;
-  --mds-utility-infomative-blue-900 : #14558f;
-  --mds-utility-infomative-blue-1300 : #0a2b48;
+  --mds-color-utility-base-white : #ffffff;
+  --mds-color-utility-base-black : #000000;
+  --mds-color-utility-base-white-transparent : #ffffff00;
+  --mds-color-utility-base-black-transparent : #00000000;
+  --mds-color-utility-focus-blue-300 : #b2dbff;
+  --mds-color-utility-focus-blue-600 : #0088ff;
+  --mds-color-utility-informative-blue-100 : #e8eef4;
+  --mds-color-utility-informative-blue-300 : #b9ccdd;
+  --mds-color-utility-informative-blue-600 : #7299bc;
+  --mds-color-utility-informative-blue-900 : #14558f;
+  --mds-color-utility-informative-blue-1300 : #0a2b48;
   --mds-color-utility-base-white-transparent: #ffffff00;
   --mds-color-utility-base-black-transparent: #00000000;
   --mds-color-utility-success-green-100: #eafbef;

@@ -62,9 +62,9 @@
   --mds-background-adaptive-brand-tertiary-mid: var(--mds-color-brand-independence-cranberry-900);
   --mds-background-adaptive-brand-tertiary-high: var(--mds-color-brand-independence-cranberry-1100);
   --mds-background-adaptive-brand-tertiary-highest: var(--mds-color-brand-independence-cranberry-1300);
-  --mds-background-section-utility-informative-lowest: var(--mds-utility-infomative-blue-100);
-  --mds-background-section-utility-informative-mid: var(--mds-utility-infomative-blue-900);
-  --mds-background-section-utility-informative-highest: var(--mds-utility-infomative-blue-1300);
+  --mds-background-section-utility-informative-lowest: var(--mds-utility-informative-blue-100);
+  --mds-background-section-utility-informative-mid: var(--mds-utility-informative-blue-900);
+  --mds-background-section-utility-informative-highest: var(--mds-utility-informative-blue-1300);
   --mds-background-adaptive-brand-highlight-mid: var(--mds-color-brand-duckling-yellow-800);
   --mds-background-adaptive-utility-danger-lowest: var(--mds-color-utility-danger-red-100);
   --mds-background-adaptive-utility-danger-low: var(--mds-color-utility-danger-red-300);
@@ -164,13 +164,14 @@
   --mds-text-body-lg-bold: var(--font-weight-semibold) var(--mds-font-size-225)/1.8 var(--mds-font-family);
 
   /** Headings **/
-  --mds-text-heading-2xs: var(--mds-font-weight-semibold) var(--mds-font-size-225)/1.4 var(--mds-font-family);
-  --mds-text-heading-xs: var(--mds-font-weight-semibold) var(--mds-font-size-275)/1.3 var(--mds-font-family);
-  --mds-text-heading-sm: var(--mds-font-weight-semibold) var(--mds-font-size-300)/1.3 var(--mds-font-family);
-  --mds-text-heading-md: var(--mds-font-weight-semibold) var(--mds-font-size-325)/1.2 var(--mds-font-family);
-  --mds-text-heading-lg: var(--mds-font-weight-semibold) var(--mds-font-size-450)/1.2 var(--mds-font-family);
-  --mds-text-heading-xl: var(--mds-font-weight-semibold) var(--mds-font-size-500)/1.2 var(--mds-font-family);
-  --mds-text-heading-2xl: var(--mds-font-weight-semibold) var(--mds-font-size-550)/1.1 var(--mds-font-family);
+  --mds-text-heading-2xs: var(--mds-font-weight-semibold) var(--mds-font-size-225)/1.4 var(--mds-font-family-headings);
+  --mds-text-heading-xs: var(--mds-font-weight-semibold) var(--mds-font-size-275)/1.3 var(--mds-font-family-headings);
+  --mds-text-heading-sm: var(--mds-font-weight-semibold) var(--mds-font-size-300)/1.3 var(--mds-font-family-headings);
+  --mds-text-heading-md: var(--mds-font-weight-semibold) var(--mds-font-size-325)/1.2 var(--mds-font-family-headings);
+  --mds-text-heading-lg: var(--mds-font-weight-semibold) var(--mds-font-size-450)/1.2 var(--mds-font-family-headings);
+  --mds-text-heading-xl: var(--mds-font-weight-semibold) var(--mds-font-size-500)/1.2 var(--mds-font-family-headings);
+  --mds-text-heading-2xl: var(--mds-font-weight-semibold) var(--mds-font-size-550)/1.1 var(--mds-font-family-headings);
+
   /** Labels **/
   --mds-text-label-sm: var(--mds-font-weight-medium) var(--mds-font-size-175)/1.2 var(--mds-font-family);
   --mds-text-label: var(--mds-font-weight-medium) var(--mds-font-size-200)/1.2 var(--mds-font-family);

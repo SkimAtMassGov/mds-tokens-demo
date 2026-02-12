@@ -8,7 +8,14 @@
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
+    /** We can remove this general one eventually and use body **/
   --mds-font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+
+  --mds-font-family-headings: "Noto Sans", Helvetica, Arial, sans-serif;
+  --mds-font-family-body: "Noto Sans", Helvetica, Arial, sans-serif;
+  --mds-font-family-utility: "Noto Sans", Helvetica, Arial, sans-serif;
+  --mds-font-family-label: "Noto Sans", Helvetica, Arial, sans-serif;
+  
   --mds-border-radius-25: 0.125rem;
   --mds-border-radius-50: 0.25rem;
   --mds-border-radius-100: 0.5rem;
@@ -120,10 +127,6 @@
   --mds-color-utility-warning-yellow-600: #f6b622;
   --mds-color-utility-warning-yellow-900: #bf8808;
   --mds-color-utility-warning-yellow-1300: #7b5705;
-  --mds-font-family-headings: 'Noto Sans', sans-serif;
-  --mds-font-family-body: 'Noto Sans', sans-serif;
-  --mds-font-family-utility: 'Noto Sans', sans-serif;
-  --mds-font-family-label: 'Noto Sans', sans-serif;
   --mds-font-size-100: 0.625rem;
   --mds-font-size-125: 0.75rem;
   --mds-font-size-175: 0.875rem;

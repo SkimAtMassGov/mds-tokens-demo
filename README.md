@@ -6,7 +6,7 @@ The semantic variables are created by running the [Token Forge Figma plugin](htt
 
 Currently they are edited by hand to remove any unhelpful directories/modes imported from Figma. We're working on how to make this process cleaner once we have the tokens looking the way we want. It does, however, allow us to use the prefix for our tokens, `mds`, when exporting.
 
-There is also files for testing these tokens that will not be included in the official release. These are index.html and styles.css. While this is in testing mode, feel free to add elements there to test them, or see the elements that already exist here: https://skimatmassgov.github.io/mds-tokens-demo/
+There is also files for testing these tokens that will not be included in the official release. These are index.html and styles.css in the `test-page` directory. While this is in testing mode, feel free to add elements in these files to test them before adding it to your own project.
 
 For specifically exporting the JSON I've been using [Variables to JSON](https://www.figma.com/community/plugin/1468186413196022101/variables-to-json) on Base Tokens and Styles Figma files, as it formats them based on the DTCG standards. Once Figma is synced to our naming convention in the CSS variables, you will also hopefully be able to generate CSS variables from that JSON file using [Style Dictionary](https://styledictionary.com/). However pulling css variables directly from Figma with Token Forge is the preferred method. 
 
